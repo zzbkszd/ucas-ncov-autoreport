@@ -9,7 +9,7 @@
 
 根据代码填写自己的表格信息，包括姓名、学号，地址信息。
 填写自己的sep账户的账号和密码
-每日定时执行即可。每日早上九点、九点半两次提交的定时执行脚本：
+
 
 修改位置为代码最底部执行的代码段
 地理位置参考代码中的地理位置案例数据
@@ -19,5 +19,5 @@ if __name__ == '__main__':
     print(formData)
     save_record('username', 'password', formData)
 ```
-
+使用Linux的crontab之类的任务每日定时执行即可。每日早上九点、九点半两次提交的定时执行脚本：
 `0,30 9 * * * python3 /path/to/ncov_save.py`
