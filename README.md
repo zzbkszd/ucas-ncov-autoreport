@@ -20,4 +20,4 @@ if __name__ == '__main__':
     save_record('username', 'password', formData)
 ```
 
-`0,30 9 * * * python3 /home/pi/ncov.py`
+`0,30 9 * * * python3 /path/to/ncov_save.py`
