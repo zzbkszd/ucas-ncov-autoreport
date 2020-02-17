@@ -11,4 +11,13 @@
 填写自己的sep账户的账号和密码
 每日定时执行即可。每日早上九点、九点半两次提交的定时执行脚本：
 
+修改位置为代码最底部执行的代码段
+地理位置参考代码中的地理位置案例数据
+```
+if __name__ == '__main__':
+    formData = composeFormData(u'姓名', '2018E80090xx000', u'省', u'市', u'县', u'街道小区')
+    print(formData)
+    save_record('username', 'password', formData)
+```
+
 `0,30 9 * * * python3 /home/pi/ncov.py`
