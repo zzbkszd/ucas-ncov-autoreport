@@ -1,0 +1,1 @@
+# ucas-ncov-autoreport
