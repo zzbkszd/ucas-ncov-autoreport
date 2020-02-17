@@ -11,4 +11,4 @@
 填写自己的sep账户的账号和密码
 每日定时执行即可。每日早上九点、九点半两次提交的定时执行脚本：
 
-`0,30 9 * * * python3 /home/pi/ncov.py`
+`0,30 9 * * * python3 /path/to/ncov_save.py`
